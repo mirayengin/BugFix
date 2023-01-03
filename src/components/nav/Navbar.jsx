@@ -1,10 +1,10 @@
 import React from "react";
-import { Contant, Nav, NavbarUl, NavLi, NavLogo, NavTitle, Title } from "./NavbarStyled";
+import { Nav, NavbarUl, NavLi, NavLogo,Navbar1 } from "./NavbarStyled";
 import logo from "../../assert/BugfixPNG.png";
 
 const Navbar = () => {
   return (
-    <>
+    <Navbar1>
       <Nav>
         <NavLogo src={logo} />
 
@@ -17,11 +17,11 @@ const Navbar = () => {
         </NavbarUl>
       </Nav>
 
-      <NavTitle>
+      {/* <NavTitle>
         <Title>Next</Title>
         <Contant>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, doloremque.</Contant>
-      </NavTitle>
-    </>
+      </NavTitle> */}
+    </Navbar1>
   );
 };
 

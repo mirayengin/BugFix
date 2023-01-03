@@ -4,11 +4,19 @@ import {Link} from "react-router-dom"
 
 
 
+export const Navbar1 = styled.div`
+  padding:2rem 4rem;
+  background-color:rgb(246, 246, 14)
+`;
+
+
+
+
 export const Nav = styled.nav`
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding:1rem 4rem;
+  /* padding:1rem 4rem; */
   
 `;
 
@@ -32,8 +40,8 @@ export const NavLi = styled(Link)`
 `;
 
 
-export const NavTitle = styled.div`
-padding-left:4rem
+/* export const NavTitle = styled.div`
+padding-left:0.6rem
 
 `;
 
@@ -44,7 +52,7 @@ text-align:start
 export const Contant = styled.p`
 text-align:start
 
-`;
+`; */
 
 
 
