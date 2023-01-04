@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Chara from "./character/Chara";
-import { Contant, NavTitle, Title } from "./NewStyled";
+import { Contant, NavTitle, NewsContent, Title } from "./NewStyled";
 
 const News = () => {
   const [characters, setCharacters] = useState([]);
@@ -32,9 +32,12 @@ const News = () => {
           doloremque.
         </Contant>
       </NavTitle>
+      <NewsContent>
+        
       {characters.map((character) => {
         return <Chara key={character.id} {...character} />;
       })}
+      </NewsContent>
     </>
   );
 };

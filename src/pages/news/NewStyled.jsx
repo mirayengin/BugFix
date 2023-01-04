@@ -13,3 +13,12 @@ export const Title = styled.h2`
 export const Contant = styled.p`
   text-align: start;
 `;
+
+export const NewsContent = styled.div`
+  margin-top: 2rem;
+  gap:2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+`;
